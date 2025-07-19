@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: gray;
+    padding: 10px;
+}
+h2, .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 50px;
+}
+#boxes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 50vh;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid rgb(130, 127, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
